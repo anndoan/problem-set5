@@ -17,6 +17,7 @@ python3 problem_1.py lamina.bed
 
 Which chromosome has the most intervals?
 ``write your answer here``
+``chr3``
 
 ## Problem 2
 Write a python program that parses a fastq file and determines the total number
@@ -31,6 +32,7 @@ python3 problem_2.py SP1.fq
 
 What is the total number of ``C`` bases?
 ``write your answer here``
+``2046``
 
 ## Problem 3:
 Write a python program that parses a fastq file and determines the most
@@ -39,9 +41,11 @@ Write the program as a python script named ``problem_3.py``
 
 What is the most common hexamer at the 5' end?
 ``write your answer here``
+``AGGGTG``
 
 What is the most common hexamer at the 3' end?
 ``write your answer here``
+``TTGAGG``
 
 ## Problem 4:
 
