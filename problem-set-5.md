@@ -72,13 +72,13 @@ samtools view file.bam | less
 
 How many positive strand aligned reads are there?
 ``your answer here``
-
+"27098"
 How many negative strand aligned reads?
 ``your answer here``
-
+"26596"
 How many alignments with no mismatches?
 ``your answer here``
-
+"42694"
 How many alignments with more than zero mismatches?
 ``your answer here``
-
+"8259 + 2738 + 2 + 1 = 11,000"
