@@ -41,11 +41,11 @@ Write the program as a python script named ``problem_3.py``
 
 What is the most common hexamer at the 5' end?
 ``write your answer here``
-``AGGGTG``
+``CCCCCC``
 
 What is the most common hexamer at the 3' end?
 ``write your answer here``
-``TTGAGG``
+``ACCCCC``
 
 ## Problem 4:
 
@@ -72,10 +72,10 @@ samtools view file.bam | less
 
 How many positive strand aligned reads are there?
 ``your answer here``
-"27098"
+"26596"
 How many negative strand aligned reads?
 ``your answer here``
-"26596"
+"27098"
 How many alignments with no mismatches?
 ``your answer here``
 "42694"

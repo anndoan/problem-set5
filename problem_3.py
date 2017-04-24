@@ -26,14 +26,24 @@ for line in open(filename):
     elif count == 3:
         qual = line
         count = 0
-       
+        
+        hexamer_5 = []
+        hexamer_3 = []
         aka_hexamer_5 = seq[0:6]
         aka_hexamer_3 = seq[-6:]
         aka_hexamers_5[aka_hexamer_5] += 1
         aka_hexamers_3[aka_hexamer_3] += 1
 
 for key, value in aka_hexamers_5.items():
-    print(aka_hexamer_5, value)
+    sortme = [(v,k) for k,v in aka_hexamers_5.items()]
+    sortme
+    sortme.sort()
+    sortme.reverse()
+print("The most common hexamer at the 5' end is", sortme[0][1])
 
 for key, value in aka_hexamers_3.items():
-    print(aka_hexamer_3, value)
+    sortme = [(v,k) for k,v in aka_hexamers_3.items()]
+    sortme
+    sortme.sort()
+    sortme.reverse()
+print("The most common hexamer at the 3' end is", sortme[0][1])

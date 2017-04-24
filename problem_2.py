@@ -30,7 +30,5 @@ for line in open(filename):
         for base in seq:
             bases[base] += 1
             
-for  key, value in bases.items():
-    print(key, value)
-
+print(bases['C'])
 
